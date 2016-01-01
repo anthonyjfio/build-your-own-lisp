@@ -25,12 +25,9 @@ long double | 10 byte | 3.4E-4932 to 1.1E+4932 | 19 decimal places |
 
 Situation | Types & Description |
 ----------|---------------------|
-1 | **Function returns as void**
-There are various functions in C which do not return any value or you can say they return void. A function with no return value has the return type as void. for example, `void exit (int status);`. |
-2 | **Function arguments as void**
-There are various functions in C which do not accept any parameter. A function with no parameter can accept a void. For example, `int rand(void);`. |
-3 | **Pointers to void**
-A pointer of the type void * represents the address of an object, but does not its type. For example, a memorey allocation function `void *malloc( size_t size );` returns a pointer to void which can be casted to any data type. |
+1 | **Function returns as void** There are various functions in C which do not return any value or you can say they return void. A function with no return value has the return type as void. for example, `void exit (int status);`. |
+2 | **Function arguments as void** There are various functions in C which do not accept any parameter. A function with no parameter can accept a void. For example, `int rand(void);`. |
+3 | **Pointers to void** A pointer of the type void * represents the address of an object, but does not its type. For example, a memorey allocation function `void *malloc( size_t size );` returns a pointer to void which can be casted to any data type. |
 
 
 Credit goes to this Tutorials point [article](http://www.tutorialspoint.com/cprogramming/c_data_types.htm).
