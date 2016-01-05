@@ -28,6 +28,7 @@
 
 | Operator | Description | Example |
 |----------|-------------|---------|
+| && | Called Logical AND operator. If bothe the operands are non-zero, then the condition becomes true. | (A && B) is false |
 
 ### Bitwise Operators
 
