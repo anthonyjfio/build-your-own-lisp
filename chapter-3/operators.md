@@ -28,7 +28,9 @@
 
 | Operator | Description | Example |
 |----------|-------------|---------|
-| && | Called Logical AND operator. If bothe the operands are non-zero, then the condition becomes true. | (A && B) is false |
+| && | Called logical AND operator. If bothe the operands are non-zero, then the condition becomes true. | (A && B) is false |
+| || | Called logical OR operator. If any of the two ooperands in non-zero, then the condition becomes true. | (A || B) is true |
+| ! | Called logical NOT operator. It is used to reverse the logical state of its operand. If a condition is true, then the logical NOT operator will make it false. | !(A && B) is true |
 
 ### Bitwise Operators
 
