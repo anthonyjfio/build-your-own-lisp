@@ -39,7 +39,7 @@
 |----------|-------------|---------|
 | `&` | Binary **and** operator copies a bit to the result if it exists in both operands. | `(A & B) = 12` i.e. `00001100` |
 | `|` | Binary **or** operator copies a bit if it esists in either operand. | `(A | B) = 61` i.e. `00111101` |
-| `^` | Binary XOR operator copies the bit if it is set in one operand but not both. | `(A ^ B) = 49` i.e. `00110001` |
+| `^` | Binary **xor** operator copies the bit if it is set in one operand but not both. | `(A ^ B) = 49` i.e. `00110001` |
 | `~` | Binary ones **complement** operator is unary and has the effect of 'flipping' bits. | `(~A) = -61` i.e. `11000011` in 2's complement form |
 | `<<` | Binary **left shift** operator. The left operands value is moved left by the number of bits specified by the right operand. | `A << 2 = 240` i.e. `11110000` |
 | `>>` | Binary **right shift** operator. The left operands value is moved right by the number of bits specified by the right operand. | `A >> 2 = 15` i.e. `00001111` |
