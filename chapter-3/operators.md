@@ -49,7 +49,10 @@
 | Operator | Description | Example |
 |----------|-------------|---------|
 | `=` | Simple assignment operator. Assigns values from right side operands to left side operand | `C = A + B` will assign the value of `A + B` to `C` |
-| `+=` | Add `and` assignment operator. It adds the right operand to the left operand and assigns the result to the left operand. | `C += A` is equivalent to `C = C + A` |
+| `+=` | Add and assignment operator. It adds the right operand to the left operand and assigns the result to the left operand. | `C += A` is equivalent to `C = C + A` |
+| `-=` | Subtract and assignment operator. It subtracts the right operand from the left operand and assigns the result to the left operand. | `C -= A` is equivalent to `C = C - A` |
+| `*=` | Multiply and assignment operator. It multiplies the right operand with the left operand and assigns the result to the left operand. | `C *= A` is equivalent to `C = C / A` |
+
 
 ### Misc Operators ↦ sizeof & ternary
 
