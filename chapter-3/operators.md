@@ -51,18 +51,43 @@
 | `=` | Simple assignment operator. Assigns values from right side operands to left side operand | `C = A + B` will assign the value of `A + B` to `C` |
 | `+=` | Add and assignment operator. It adds the right operand to the left operand and assigns the result to the left operand. | `C += A` is equivalent to `C = C + A` |
 | `-=` | Subtract and assignment operator. It subtracts the right operand from the left operand and assigns the result to the left operand. | `C -= A` is equivalent to `C = C - A` |
-| `*=` | Multiply and assignment operator. It multiplies the right operand with the left operand and assigns the result to the left operand. | `C *= A` is equivalent to `C = C / A` |
-
+| `*=` | Multiply and assignment operator. It multiplies the right operand with the left operand and assigns the result to the left operand. | `C *= A` is equivalent to `C = C * A` |
+| `/=` | Divide and assignment operator. It divides the left operand with the right operand and assigns the result to the left operand. | `C /= A` is equivalent to `C = C / A` |
+| `%=` | Modulus and assignment operator. It takes modulus using two operands and assigns the result to the left operand. | `C %= A` is equivalent to `C = C % A` |
+| `<<=` | Left shift and assignment operator. | `C <<= 2` is the same as `C << 2` |
+| `>>=` | Right shift and assignment operator. | `C >>= 2` is same as `C = C >> 2` |
+| `&=` | Bitwise and assignment operator. | `C &= 2` is same as `C = C & 2` |
+| `^=` | Bitwise exclusive or and assignment operator. | `C ^= 2` is same as `C = C ^ 2` |
+| `|=` | Bitwise inclusive or and assignment operator. | `C |= 2` is same as `C = C | 2` |
 
 ### Misc Operators ↦ sizeof & ternary
 
 | Operator | Description | Example |
 |----------|-------------|---------|
+| `sizeof()` | Returns the size of a variable | `sizeof(a)` where `a` is integer, will return `4` |
+| `&` | Returns the address of a variable | `&a;` returns the actual address of the variable |
+| `*` | Pointer to a variable | `*a;` |
+| `? :` | Conditional expression | If condition is true `?` then value `x` `:` otherwise value `y` |
 
-### OPerators Precedence in C
+### Operators Precedence in C
 
 | Category | Operator | Associativity |
 |----------|----------|---------------|
+| Postfix | `() [] -> . ++ - -` | Left to right |
+| Unary | `+ - ! ~ ++ - - (type)* & sizeof` | Right to left |
+| Multiplicative | `* / %` | Left to right |
+| Additive | `+ -` | Left to right |
+| Shift | `<< >>` | Left to right |
+| Relational | `< <= > >=` | Left to right |
+| Equality | `== !=` | Left to right |
+| Bitwise and | `&` | Left to right |
+| Bitwise xor | `^` | Left to right |
+| Bitwise or | `|` | Left to right |
+| Logical and | `&&` | Left to right |
+| Logical or | `||` | Left to right |
+| Conditional | `?:` | Right to left |
+| Assignment | `= += -= *= /= %=>>= <<= &= ^= |=` | Right to left |
+| Comma | `,` | Left to right |
 
 
 Credit goes to this Tutorials point [article](http://www.tutorialspoint.com/cprogramming/c_operators.htm).
