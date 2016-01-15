@@ -33,7 +33,6 @@ void add_history(char* unused) {}
 int main(int argc, char** argv) {
 
   puts("Lippy Version 0.0.0.1");
-  puts("Watch out I'm fiesty");
   puts("Press Ctrl+c to exit\n");
 
   while (1) {
@@ -41,7 +40,7 @@ int main(int argc, char** argv) {
     char* input = readline("lippy>");
 
     add_history(input);
-    printf("No you're a %s\n", input);
+    printf("Shush ya %s\n", input);
 
     free(input);
   }
