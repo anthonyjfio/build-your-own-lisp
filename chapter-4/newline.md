@@ -1,6 +1,6 @@
 # Newline Character
 
-The newline character in C is `/n`. It means that the contents after the `/n` will be on a newline.
+The newline character in C is `\n`. It means that the contents after the `\n` will be on a newline.
 
 ### Sample usage
 
