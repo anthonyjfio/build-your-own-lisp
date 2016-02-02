@@ -1,12 +1,10 @@
 # Website URL Grammer
 
-The number of decimal places that are non-zero determine which unit you will use to say the number. For example `0.087` and  `0.087000` would both be *eighty seven thousandths*. 
+An example of a website url is: `http://www.example.net`
+Another example of a website url is: `https:/website.com`
 
-`http://`
-`https://`
-`www.`
-`example`
-`website`
-`.com`
-`.org`
-`.net`
+`http://` = Protocol
+`https://` = Secure Protocol
+`www.` = Subdomain
+`example.net` = Domain Name
+`website.com` = Domain Name
